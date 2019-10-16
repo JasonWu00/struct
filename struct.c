@@ -17,10 +17,8 @@ int changeValues(struct enemy *pointer, char newName[25], int newHealth) {
 int modifyName(struct enemy *pointer, char newName[25]) {
 
   int counter = 0;
-  _Bool end = (newName[counter] != NULL);
-  while (end) {
+  while (newName[counter] != NULL) {
     pointer->name[counter] = newName[counter];
-    end = newName[counter] != NULL;
     counter++;
   }
   pointer->name[counter] = NULL;
