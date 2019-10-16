@@ -4,10 +4,10 @@
 #include "struct.h"
 
 int main() {
-  struct enemy Astartes;
+  struct spaceMarine Astartes;
   strcpy(Astartes.name, "Cato Sicarius");
   Astartes.health = 1000;
-  struct enemy *pointer = &Astartes;
+  struct spaceMarine *pointer = &Astartes;
 
   printout(pointer);
 

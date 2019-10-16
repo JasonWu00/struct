@@ -1,6 +1,6 @@
-struct enemy{int health; char name[25];};
+struct spaceMarine{int health; char name[25];};
 
-int printout(struct enemy *pointer);
-int changeValues(struct enemy *pointer, char newName[25], int newHealth);
-int modifyName(struct enemy *pointer, char newName[25]);
-int modifyHealth(struct enemy *pointer, int newHealth);
+int printout(struct spaceMarine *pointer);
+int changeValues(struct spaceMarine *pointer, char newName[25], int newHealth);
+int modifyName(struct spaceMarine *pointer, char newName[25]);
+int modifyHealth(struct spaceMarine *pointer, int newHealth);
