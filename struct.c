@@ -12,7 +12,6 @@ int printout(struct spaceMarine *pointer) {
 
 int randomizer(struct spaceMarine *pointer) {
   //make random new name
-  srand(time(NULL)); //to set the system
   int randomHP = rand()%1000 + 500;
   char alphabet[56] = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   int numberOfChars = rand()%24 + 1;

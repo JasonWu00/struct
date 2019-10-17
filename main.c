@@ -4,6 +4,8 @@
 #include "struct.h"
 
 int main() {
+  srand(time(NULL)); //to set the randomizer
+
   struct spaceMarine Astartes;
   strcpy(Astartes.name, "Cato Sicarius");
   Astartes.health = 1000;
